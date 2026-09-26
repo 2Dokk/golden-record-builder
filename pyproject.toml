@@ -1,0 +1,13 @@
+[project]
+name = "partner-mdm"
+version = "0.1.0"
+description = "이종 시스템 거래처 마스터 데이터 통합기 (MDM 토이 프로젝트)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
